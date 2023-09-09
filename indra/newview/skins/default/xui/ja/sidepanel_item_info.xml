@@ -13,10 +13,10 @@
 		（公開）
 	</panel.string>
 	<panel.string name="you_can">
-		あなたができること：
+		あなた：
 	</panel.string>
 	<panel.string name="owner_can">
-		所有者ができること：
+		所有者：
 	</panel.string>
 	<panel.string name="acquiredDate">
 		[year,datetime,local]年[mth,datetime,local]月[day,datetime,local]日[wkday,datetime,local]　[hour,datetime,local]：[min,datetime,local]：[second,datetime,local]
@@ -34,11 +34,11 @@
 			<text name="LabelItemNameTitle">
 				名前：
 			</text>
-			<line_editor name="LabelItemName" tool_tip="使用できる名前の文字数は最大63文字までです。長いプリム名は短縮されます。名前に使用できる文字は ASCII-7（非拡張）に含まれる印字可能な文字のみです（縦線「|」は例外）。"/>
+			<line_editor name="LabelItemName" tool_tip="使用できる名前の文字数は最大６３文字までです。長いプリム名は短縮されます。名前に使用できる文字は ASCII-7（非拡張）に含まれる印字可能な文字のみです（縦線「|」は例外）。"/>
 			<text name="LabelItemDescTitle">
 				説明：
 			</text>
-			<line_editor name="LabelItemDesc" tool_tip="ビューアの設定で[すべてのオブジェクト上でヒントを表示]が選択されている場合、オブジェクトにマウスのポインタをかざすとそのオブジェクトの説明がポップアップ表示されます。プリムの説明は最大127バイトまでに制限されているため、それよりも長い文字列は切り捨てられます。"/>
+			<line_editor name="LabelItemDesc" tool_tip="ビューアの設定で「すべてのオブジェクト上でヒントを表示」が選択されている場合、オブジェクトにマウスのポインタをかざすと、そのオブジェクトの説明がポップアップ表示されます。プリムの説明は最大１２７バイトまでに制限されているため、それよりも長い文字列は切り捨てられます。"/>
 			<text name="LabelCreatorTitle">
 				制作者：
 			</text>
@@ -53,7 +53,7 @@
 			</text>
 			<panel name="perms_inv">
 				<text name="perm_modify">
-					あなたができること：
+					あなた：
 				</text>
 				<check_box label="修正" name="CheckOwnerModify"/>
 				<check_box label="コピー" name="CheckOwnerCopy"/>
@@ -79,7 +79,7 @@
 				<combo_box.item label="コンテンツ" name="Contents"/>
 				<combo_box.item label="オリジナル" name="Original"/>
 			</combo_box>
-			<spinner label="価格：L$" name="Edit Cost" tool_tip="オブジェクトの価格"/>
+			<spinner label="価格：L$" name="Edit Cost" tool_tip="オブジェクトの価格を指定します。"/>
 		</panel>
 	</scroll_container>
 	<panel name="button_panel">

@@ -24,7 +24,7 @@ Ctrlキーを押しながら、メンバー名をクリックすることで複�
 			</name_list>
 			<button label="招待" name="member_invite"/>
 			<button label="追放" name="member_eject"/>
-			<button label="メンバーの立入禁止" name="member_ban"/>
+			<button label="バン" name="member_ban"/>
 		</panel>
 		<panel label="役割" name="roles_sub_tab">
 			<panel.string name="help_text">
@@ -130,8 +130,8 @@ Ctrlキーを押しながら、メンバー名をクリックすることで複�
 		<text name="static4">
 			割当られたメンバー
 		</text>
-		<check_box label="Reveal members" name="role_visible_in_list" tool_tip="グループ外の人が一般タブを見たときに、この役割のメンバーが表示されるかどうかを設定します。"/>
-		<text name="static5" tool_tip="現在選択されている役割で実行できる能力のリスト">
+		<check_box label="明らかなメンバー" name="role_visible_in_list" tool_tip="グループ外の人が一般タブを見たときに、この役割のメンバーが表示されるかどうかを設定します。"/>
+		<text name="static5" tool_tip="現在選択されている役割で実行できる能力のリストです。">
 			許可された能力
 		</text>
 		<scroll_list name="role_allowed_actions" tool_tip="各能力の詳細は、能力のタブをご覧ください。">

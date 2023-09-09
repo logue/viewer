@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <floater name="floater_notifications_tabbed" title="通知">
-	<floater.string name="system_tab_title">
-		システム ([COUNT])
-	</floater.string>
-	<floater.string name="transactions_tab_title">
-		取引 ([COUNT])
-	</floater.string>
-	<floater.string name="group_invitations_tab_title">
-		招待 ([COUNT])
-	</floater.string>
-	<floater.string name="group_notices_tab_title">
-		グループ ([COUNT])
-	</floater.string>
-	<string name="title_notification_tabbed_window">
-		通知
-	</string>
+	<floater.string name="system_tab_title">システム ([COUNT])</floater.string>
+	<floater.string name="transactions_tab_title">取引 ([COUNT])</floater.string>
+	<floater.string name="group_invitations_tab_title">招待 ([COUNT])</floater.string>
+	<floater.string name="group_notices_tab_title">グループ ([COUNT])</floater.string>
+	<string name="title_notification_tabbed_window">通知</string>
 	<layout_stack name="TabButtonsStack">
 		<layout_panel name="TabButtonsLayoutPanel">
 			<tab_container name="notifications_tab_container">

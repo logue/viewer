@@ -99,63 +99,64 @@
 				<text initial_value="頂点" name="vertices" value="頂点"/>
 				<text initial_value="高" name="high_label" value="高"/>
 				<combo_box name="lod_source_high">
-					<item label="ファイルから読み込む" name="Load from file" value="ファイルから読み込む"/>
+					<item name="Load from file" label="ファイルから読み込む" value="Load from file"/>
 					<item label="生成" name="Generate" value="生成"/>
 				</combo_box>
-				<button label="参照" name="lod_browse_high"/>
+				<line_editor name="lod_file_high" value=""/>
+				<button label="ブラウズ…" name="lod_browse_high"/>
 				<combo_box name="lod_mode_high">
-					<item label="三角形の限度数" name="Triangle Limit" value="三角形の限度数"/>
-					<item label="エラーしきい値" name="Error Threshold" value="エラーしきい値"/>
+					<item label="三角形の限度数" name="Triangle Limit" value="Triangle Limit"/>
+					<item label="エラーのしきい値" name="Error Threshold" value="Error Threshold"/>
 				</combo_box>
 				<text initial_value="0" name="high_triangles" value="0"/>
 				<text initial_value="0" name="high_vertices" value="0"/>
 				<text initial_value="中" name="medium_label" value="中"/>
 				<combo_box name="lod_source_medium">
-					<item label="ファイルから読み込む" name="Load from file" value="ファイルから読み込む"/>
+					<item name="Load from file" label="ファイルから読み込む" value="Load from file"/>
 					<item label="生成" name="Generate" value="生成"/>
-					<item label="上記の LoD を使用" name="Use LoD above" value="上記の LoD を使用"/>
+					<item name="Use LoD above" label="上記のＬｏＤ設定を使用" value="Use LoD above"/>
 				</combo_box>
-				<button label="参照" name="lod_browse_medium"/>
+				<button label="ブラウズ…" name="lod_browse_medium"/>
 				<combo_box name="lod_mode_medium">
-					<item label="三角形の限度数" name="Triangle Limit" value="三角形の限度数"/>
-					<item label="エラーしきい値" name="Error Threshold" value="エラーしきい値"/>
+					<item label="三角形の限度数" name="Triangle Limit" value="Triangle Limit"/>
+					<item label="エラーのしきい値" name="Error Threshold" value="Error Threshold"/>
 				</combo_box>
 				<text initial_value="0" name="medium_triangles" value="0"/>
 				<text initial_value="0" name="medium_vertices" value="0"/>
 				<text initial_value="低" name="low_label" value="低"/>
 				<combo_box name="lod_source_low">
-					<item label="ファイルから読み込む" name="Load from file" value="ファイルから読み込む"/>
+					<item name="Load from file" label="ファイルから読み込む" value="Load from file"/>
 					<item label="生成" name="Generate" value="生成"/>
-					<item label="上記の LoD を使用" name="Use LoD above" value="上記の LoD を使用"/>
+					<item name="Use LoD above" label="上記のＬｏＤ設定を使用" value="Use LoD above"/>
 				</combo_box>
-				<button label="参照" name="lod_browse_low"/>
+				<button label="ブラウズ…" name="lod_browse_low"/>
 				<combo_box name="lod_mode_low">
-					<item label="三角形の限度数" name="Triangle Limit" value="三角形の限度数"/>
-					<item label="エラーしきい値" name="Error Threshold" value="エラーしきい値"/>
+					<item label="三角形の限度数" name="Triangle Limit" value="Triangle Limit"/>
+					<item label="エラーのしきい値" name="Error Threshold" value="Error Threshold"/>
 				</combo_box>
 				<text initial_value="0" name="low_triangles" value="0"/>
 				<text initial_value="0" name="low_vertices" value="0"/>
 				<text initial_value="最低" name="lowest_label" value="最低"/>
 				<combo_box name="lod_source_lowest">
-					<item label="ファイルから読み込む" name="Load from file" value="ファイルから読み込む"/>
+					<item name="Load from file" label="ファイルから読み込む" value="Load from file"/>
 					<item label="生成" name="Generate" value="生成"/>
-					<item label="上記の LoD を使用" name="Use LoD above" value="上記の LoD を使用"/>
+					<item name="Use LoD above" label="上記のＬｏＤ設定を使用" value="Use LoD above"/>
 				</combo_box>
-				<button label="参照" name="lod_browse_lowest"/>
+				<button label="ブラウズ…" name="lod_browse_lowest"/>
 				<combo_box name="lod_mode_lowest">
-					<item label="三角形の限度数" name="Triangle Limit" value="三角形の限度数"/>
-					<item label="エラーしきい値" name="Error Threshold" value="エラーしきい値"/>
+					<item name="Triangle Limit" label="三角形の限度数" value="Triangle Limit"/>
+					<item name="Error Threshold" label="エラーのしきい値" value="Error Threshold"/>
 				</combo_box>
 				<text initial_value="0" name="lowest_triangles" value="0"/>
 				<text initial_value="0" name="lowest_vertices" value="0"/>
-				<check_box label="ノーマルの作成" name="gen_normals"/>
-				<text initial_value="折れ角度：" name="crease_label" value="折れ角度："/>
+				<check_box name="gen_normals" lavel="法線を生成"/>
+				<text name="crease_label" value="折り目の角度："/>
 				<spinner name="crease_angle" value="75"/>
 			</panel>
 			<panel label="物理効果" name="physics_panel">
 				<panel name="physics geometry">
 					<text name="first_step_name">
-						手順１：描画詳細度
+						ステップ１：描画詳細度
 					</text>
 					<combo_box name="physics_lod_combo" tool_tip="実像に適用するLOD">
 						<combo_item name="choose_one">
@@ -177,11 +178,11 @@
 							ファイルから
 						</combo_item>
 					</combo_box>
-					<button label="参照" name="physics_browse"/>
+					<button name="physics_browse" label="ブラウズ…"/>
 				</panel>
 				<panel name="physics analysis">
 					<text name="method_label">
-						手順２：分析
+						ステップ２：分析
 					</text>
 					<text name="analysis_method_label">
 						方法：
@@ -221,19 +222,19 @@
 						結果：
 					</text>
 					<text name="physics_triangles">
-						三角形：[TRIANGLES],
+						三角形：[TRIANGLES]，
 					</text>
 					<text name="physics_points">
-						頂点：[POINTS],
-					</text>
+						頂点数：[POINTS]，
+						</text>
 					<text name="physics_hulls">
-						外殻構造：[HULLS]
+						殻の数：[HULLS]
 					</text>
 				</panel>
 			</panel>
-			<panel label="アップロードのオプション" name="modifiers_panel">
+			<panel label="アップロードオプション" name="modifiers_panel">
 				<text name="scale_label">
-					スケール（１＝増減なし）：
+					スケール（１＝拡大縮小なし）：
 				</text>
 				<spinner name="import_scale" value="1.0"/>
 				<text name="dimensions_label">
@@ -248,7 +249,7 @@
 				</text>
 				<check_box label="スキンの重さを含む" name="upload_skin"/>
 				<check_box label="ジョイント位置を含む" name="upload_joints"/>
-				<check_box label="ジョイント位置が定義されている場合、スケールをロック" name="lock_scale_if_joint_position"/>
+				<check_box label="ジョイント位置が定義されている場合、スケールをロックします。" name="lock_scale_if_joint_position"/>
 				<text name="pelvis_offset_label">
 					Ｚオフセット（アバターを上下調整）：
 				</text>
@@ -256,15 +257,15 @@
 			</panel>
 		</tab_container>
 		<panel name="weights_and_warning_panel">
-			<button label="ウェイトと料金の計算" name="calculate_btn" tool_tip="ウェイトと料金の計算"/>
+			<button label="ウェイトと料金の計算" name="calculate_btn" tool_tip="ウェイトと料金を計算します。"/>
 			<button label="キャンセル" name="cancel_btn"/>
-			<button label="アップロード" name="ok_btn" tool_tip="シミュレーターにアップロード"/>
+			<button label="アップロード" name="ok_btn" tool_tip="シミュレーターにアップロードします。"/>
 			<button label="設定をクリアしてフォームをリセット" name="reset_btn"/>
 			<text name="upload_fee">
 				アップロード料金：L$ [FEE]
 			</text>
 			<text name="prim_weight">
-				土地の負荷：[EQ]
+				土地の負荷（ＬＩ）：[EQ]
 			</text>
 			<text name="download_weight">
 				ダウンロード：[ST]
@@ -290,7 +291,7 @@
 		プレビュー：
 	</text>
 	<panel name="right_panel">
-		<combo_box name="preview_lod_combo" tool_tip="プレビュー表示のLOD設定">
+		<combo_box name="preview_lod_combo" tool_tip="プレビューレンダーで表示するＬｏＤ">
 			<combo_item name="high">
 				高
 			</combo_item>
@@ -307,13 +308,14 @@
 		<text name="label_display">
 			外観…
 		</text>
-		<check_box label="輪部" name="show_edges"/>
+		<check_box label="エッジ" name="show_edges"/>
 		<check_box label="物理効果" name="show_physics"/>
-		<check_box label="テクスチャ" name="show_textures"/>
-		<check_box label="スキンの重さ" name="show_skin_weight"/>
+		<check_box label="テクスチャ数" name="show_textures"/>
+		<check_box label="スキンのウエイト" name="show_skin_weight"/>
 		<check_box label="ジョイント位置" name="show_joint_positions"/>
+		<check_box label="ジョイント数" name="show_joint_positions"/>
 		<text name="physics_explode_label">
-			プレビュースプレッド：
+			スプレッドのプレビュー：
 		</text>
 	</panel>
 </floater>

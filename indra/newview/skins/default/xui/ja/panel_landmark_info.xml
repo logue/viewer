@@ -26,9 +26,9 @@
 	<scroll_container name="place_scroll">
 		<panel name="scrolling_panel">
 			<texture_picker name="logo"/>
-			<text name="parcel_title" value="SampleParcel, Name Long"/>
+			<text name="parcel_title" value="とても長い名前のサンプル区画"/>
 			<text name="region_title">
-				リージョン（地域）：[REGIONAMEPOS]
+				リージョン：[REGIONAMEPOS]
 			</text>
 			<text name="parcel_owner_label" value="所有者："/>
 			<text name="parcel_owner" value="一時的な所有者"/>

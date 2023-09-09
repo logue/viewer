@@ -8,11 +8,11 @@
 アニメーションの最大長は[MAX_LENGTH]秒です。
 	</floater.string>
 	<floater.string name="failed_file_read">
-		アニメーションファイルを読み取れません。
+		アニメーションファイルを読み込めませんでした。
 [STATUS]
 	</floater.string>
 	<floater.string name="E_ST_OK">
-		Ok
+		ＯＫ
 	</floater.string>
 	<floater.string name="E_ST_EOF">
 		ファイルの終端が不完全です。
@@ -171,9 +171,9 @@
 	</combo_box>
 	<spinner label="イーズ・イン（秒）" name="ease_in_time" tool_tip="アニメーションのブレンドイン時間（秒）"/>
 	<spinner label="イーズ・アウト（秒）" name="ease_out_time" tool_tip="アニメーションのブレンドアウト時間（秒）"/>
-	<button name="play_btn" tool_tip="アニメーションを再生する。"/>
-	<button name="pause_btn" tool_tip="アニメーションを一時停止する。"/>
-	<button name="stop_btn" tool_tip="アニメーションの再生を停止する。"/>
+	<button name="play_btn" tool_tip="アニメーションを再生します。"/>
+	<button name="pause_btn" tool_tip="アニメーションを一時停止します。"/>
+	<button name="stop_btn" tool_tip="アニメーションの再生を停止します。"/>
 	<text name="bad_animation_text">
 		アニメーションファイルを読み取れません。Poser 4からエクスポートしたBVHファイルをお勧めします。
 	</text>
