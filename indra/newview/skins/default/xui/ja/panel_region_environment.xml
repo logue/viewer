@@ -31,6 +31,14 @@
 		（リージョンの環境）
 	</string>
 	<layout_stack name="ls_main">
+		<layout_panel name="pnl_environment_region_msg">
+			<text name="region_text_lbl">
+				リージョン：
+			</text>
+			<text name="region_text">
+				不明
+			</text>
+		</layout_panel>
 		<layout_panel name="pnl_environment_disabled">
 			<text name="txt_environment_disabled">
 				…
@@ -117,12 +125,4 @@
 			</layout_stack>
 		</layout_panel>
 	</layout_stack>
-	<layout_panel name="pnl_environment_region_msg">
-		<text name="region_text_lbl">
-			リージョン：
-		</text>
-		<text name="region_text">
-			不明
-		</text>
-	</layout_panel>
 </panel>

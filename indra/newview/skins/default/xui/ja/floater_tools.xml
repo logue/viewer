@@ -49,7 +49,7 @@
 	<button name="button move" tool_tip="移動"/>
 	<button name="button edit" tool_tip="編集"/>
 	<button name="button create" tool_tip="作成"/>
-	<button name="button land" tool_tip="地形"/>	<radio_group name="focus_radio_group">
+	<button name="button land" tool_tip="地形"/>
 	<text name="text status">
 		移動するにはドラッグ、コピーするにはShiftキーを押しながらドラッグ
 	</text>
@@ -206,6 +206,7 @@
 				<combo_box.item label="オブジェクトに支払う" name="Payobject"/>
 				<combo_box.item label="開く" name="Open"/>
 				<combo_box.item label="ズームする" name="Zoom"/>
+				<combo_box.item label="オブジェクトを無視" name="Ignoreobject"/>
 				<combo_box.item label="なし" name="None"/>
 			</combo_box>
 			<check_box label="販売対象：" name="checkbox for sale" tool_tip="このオブジェクトやオブジェクトの中身が購入できるようになるか、指定価格でインワールドにコピーできるようになります。"/>

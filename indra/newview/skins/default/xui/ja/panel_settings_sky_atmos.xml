@@ -6,7 +6,7 @@
 		<layout_panel name="top_lp">
 			<text name="ambient_color_label">周辺カラー：</text>
 			<color_swatch name="ambient_light" />
-			<text name="blue_horizon_label">青の地平線：</text>
+			<text name="blue_horizon_label">地平線の青：</text>
 			<color_swatch name="blue_horizon" />
 			<text name="blue_density_label">青の濃度：</text>
 			<color_swatch name="blue_density" />
@@ -14,7 +14,7 @@
 		<layout_panel name="bottom_lp">
 			<layout_stack name="atmosphere1">
 				<layout_panel name="left_lp">
-					<text name="haze_horizon_label">霞の地平線：</text>
+					<text name="haze_horizon_label">地平線の霞：</text>
 					<slider name="haze_horizon" />
 					<text name="haze_density_label">霞の密度:</text>
 					<slider name="haze_density" />
