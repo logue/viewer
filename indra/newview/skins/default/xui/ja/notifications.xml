@@ -1207,7 +1207,7 @@ L$が不足しているので、このグループに参加することができ
 		<tag>confirm</tag>
 		<usetemplate name="okcancelbuttons" notext="キャンセル" yestext="コピー"/>
 	</notification>
-	<notification name="ResolutionSwitchFail">解像度を[RESX]✕[RESY]に変更することができませんでした。
+	<notification name="ResolutionSwitchFail">解像度を[RESX]×[RESY]に変更することができませんでした。
 		<tag>fail</tag>
 	</notification>
 	<notification name="ErrorUndefinedGrasses">エラー：未定義の植物：[SPECIES]
@@ -1640,9 +1640,9 @@ https://wiki.secondlife.com/wiki/Adding_Spelling_Dictionaries
 
 テクスチャは、２４ビットの[MAX_SIZE]x[MAX_SIZE]以下の画像を選択し、「適用」ボタンを再度クリックしてください。</notification>
 	<notification name="InvalidTerrainSize">リージョンの地形テクスチャを設定できませんでした：
-地形テクスチャ「[TEXTURE_NUM]」は、[TEXTURE_SIZE_X]✕[TEXTURE_SIZE_Y]では大きすぎます。
+地形テクスチャ「[TEXTURE_NUM]」は、[TEXTURE_SIZE_X]×[TEXTURE_SIZE_Y]では大きすぎます。
 
-テクスチャは、２４ビットの[MAX_SIZE]✕[MAX_SIZE]以下の画像を選択し、「適用」ボタンを再度クリックしてください。</notification>
+テクスチャは、２４ビットの[MAX_SIZE]×[MAX_SIZE]以下の画像を選択し、「適用」ボタンを再度クリックしてください。</notification>
 	<notification name="RawUploadStarted">アップロードを開始しました。接続速度によっては、最大２分程度かかります。</notification>
 	<notification name="ConfirmBakeTerrain">現在の地形を構築しようとしています。この操作を行うと現在の地形が、土地の隆起と沈降の制限範囲の基準となり、「復元」ツールのデフォルトになります。操作を続行しますか？
 		<tag>confirm</tag>

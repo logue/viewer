@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<floater name="Model Preview" title="モデルウィザード">
+<floater name="Model Preview" title="モデルのアップロード">
 	<string name="status_idle"/>
 	<string name="status_parse_error">
-		エラー：Dae に問題が見つかりました - 詳細についてはログをご参照ください。
+		エラー：DAEファイルに問題が見つかりました。‐詳細につきましてはログをご確認ください。
 	</string>
 	<string name="status_bind_shape_orientation">
-		警告：バインドシェイプマトリックスは、標準の X 軸正方向にはありません。
+		警告：バインドシェイプマトリックスは、標準のＸ軸正方向にはありません。
 	</string>
 	<string name="status_material_mismatch">
 		エラー：モデルの材料は参考モデルのサブセットではありません。
@@ -14,19 +14,18 @@
 		読み込んでいます…
 	</string>
 	<string name="status_generating_meshes">
-		メッシュを作成中
+		メッシュを作成しています…
 	</string>
 	<string name="status_vertex_number_overflow">
-		エラー：頂点の数が65534を超過したので中止されました。
+		エラー：頂点の数が65534個を超えたので中止しました。
 	</string>
 	<string name="bad_element">
-		エラー：要素が無効です
+		エラー：要素が無効です。
 	</string>
 	<string name="high">
 		高
 	</string>
-	<string name="medium">
-		中
+	<string name="medium">中
 	</string>
 	<string name="low">
 		低
@@ -35,7 +34,7 @@
 		最低
 	</string>
 	<string name="mesh_status_good">
-		発送
+		発送できます！
 	</string>
 	<string name="mesh_status_na">
 		該当なし
@@ -56,22 +55,79 @@
 		必要な描画詳細度が見つかりません。
 	</string>
 	<string name="mesh_status_invalid_material_list">
-		LOD付きの材料は、参考モデルのサブセットではありません。
+		ＬｏＤ付きのマテリアルは、参考モデルのサブセットではありません。
 	</string>
 	<string name="phys_status_vertex_limit_exceeded">
-		一部の物理的な外殻構造が、頂点の制限を超えます。
+		一部の物理的な凸包が、頂点の制限を超えます。
+	</string>
+	<string name="phys_status_degenerate_triangles">
+		物理メッシュが密すぎるか、極小な三角形が含まれています。この問題を解決するには、分析／簡素化を使用します。
 	</string>
 	<string name="layer_all">
 		全て
 	</string>
 	<string name="decomposing">
-		分析中
+		分析しています…
 	</string>
 	<string name="simplifying">
-		簡素化
+		簡素化しています…
 	</string>
 	<string name="tbd">
-		未定
+		未計算
+	</string>
+	<string name="TooManyJoint">
+		ジョイントが多すぎるためスキニングが無効化されました：[MAX]個中[JOINTS]個
+	</string>
+	<string name="UnrecognizedJoint">
+		認識できないジョイント名をリグしようとしています：[NAME]
+	</string>
+	<string name="UnknownJoints">
+		[COUNT]個の不明なジョイントがあるためスキニングは無効化されました。
+	</string>
+	<string name="ModelLoaded">
+		[MODEL_NAME]モデルが読み込まれました。
+	</string>
+	<string name="IncompleteTC">
+		テクスチャの座標データが不完全です。
+	</string>
+	<string name="PositionNaN">
+		DAEモデルから位置データを読み込み時にNaNが見つかりました。このモデルは無効です。
+	</string>
+	<string name="NormalsNaN">
+		DAEモデルの法線マップ読み込み時にNaNが見つかりました。このモデルは無効です。
+	</string>
+	<string name="NegativeScaleTrans">
+		負のスケールが検出されました。domInstance_geometry要素の変換はサポートされていません：[LABEL]
+	</string>
+	<string name="NegativeScaleNormTrans">
+		負のスケールが検出されました。正規化後のdomInstance_geometry要素の変換はサポートされていません：[LABEL]
+	</string>
+	<string name="CantResolveGeometryUrl">
+		ジオメトリＵＲＬを解決することができませんでした。
+	</string>
+	<string name="ParsingErrorBadElement">
+		不正な要素です。
+	</string>
+	<string name="ParsingErrorCantParseScene">
+		シーンを解析できませんでした。
+	</string>
+	<string name="ParsingErrorCorrupt">
+		DAEファイルでエラーが見つかりました。‐ファイルが破損しているようです。
+	</string>
+	<string name="ParsingErrorNoController">
+		コントローラーを確認できませんでした。
+	</string>
+	<string name="ParsingErrorNoDoc">
+		内部ドキュメントが見つかりません。
+	</string>
+	<string name="ParsingErrorNoRoot">
+		ドキュメントにルートがありません。
+	</string>
+	<string name="ParsingErrorNoScene">
+		ドキュメントにvisual_scene要素がありません。
+	</string>
+	<string name="ParsingErrorPositionInvalidModel">
+		位置データがないのでメッシュを処理できません。無効なモデルです。
 	</string>
 	<panel name="left_panel">
 		<panel name="model_name_representation_panel">
@@ -93,10 +149,10 @@
 			</combo_box>
 		</panel>
 		<tab_container name="import_tab">
-			<panel label="描画詳細度" name="lod_panel" title="描画詳細度">
+			<panel label="ＬｏＤ" name="lod_panel" title="描画詳細度">
 				<text initial_value="データ源" name="source" value="データ源"/>
-				<text initial_value="三角形" name="triangles" value="三角形"/>
-				<text initial_value="頂点" name="vertices" value="頂点"/>
+				<text initial_value="三角形数" name="triangles" value="三角形"/>
+				<text initial_value="頂点数" name="vertices" value="頂点"/>
 				<text initial_value="高" name="high_label" value="高"/>
 				<combo_box name="lod_source_high">
 					<item name="Load from file" label="ファイルから読み込む" value="Load from file"/>
@@ -226,9 +282,9 @@
 					</text>
 					<text name="physics_points">
 						頂点数：[POINTS]，
-						</text>
+					</text>
 					<text name="physics_hulls">
-						殻の数：[HULLS]
+						凸包数：[HULLS]
 					</text>
 				</panel>
 			</panel>
@@ -241,7 +297,7 @@
 					サイズ：
 				</text>
 				<text name="import_dimensions">
-					[X]✕[Y]✕[Z]
+					[X]×[Y]×[Z]
 				</text>
 				<check_box label="テクスチャを含む" name="upload_textures"/>
 				<text name="include_label">
@@ -255,6 +311,32 @@
 				</text>
 				<spinner name="pelvis_offset" value="0.0"/>
 			</panel>
+			<panel label="オーバーライド" name="rigging_panel" title="リグ">
+				<view_border name="avatar_tab_border"/>
+				<check_box label="スキンのウエイトを含める" name="upload_skin"/>
+				<check_box label="ジョイント位置を含める" name="upload_joints"/>
+				<check_box label="ジョイント位置が定義されている場合はスケールをロック" name="lock_scale_if_joint_position"/>
+				<text name="pelvis_offset_label">Ｚオフセット（アバターの上下調整）：</text>
+				<spinner name="pelvis_offset"/>
+				<text name="skin_too_many_joints">スキンされたジョイントが多すぎます。</text>
+				<text name="skin_unknown_joint">モデルに不明なジョイントがあります。</text>
+				<text name="joints_descr">ジョイント数：</text>
+				<scroll_list name="joints_list"/>
+				<text name="conflicts_description">[JOINTS_COUNT]個のジョイントに[CONFLICTS]箇所の競合があります。</text>
+				<text name="pos_overrides_descr">ジョイント「[JOINT]」の位置オーバーライド：</text>
+				<scroll_list name="pos_overrides_list">
+					<scroll_list.columns label="モデル" name="model_name"/>
+					<scroll_list.columns label="Ｘ" name="axis_x"/>
+					<scroll_list.columns label="Ｙ" name="axis_y"/>
+					<scroll_list.columns label="Ｚ" name="axis_z"/>
+				</scroll_list>
+			</panel>
+			<panel label="ログ" name="logs_panel" title="ログ">
+				<view_border name="log_tab_border"/>
+				<text_editor name="log_text">
+				</text_editor>
+				<check_box label="詳細ログを有効にする（非常に遅くなる可能性があります）" name="verbose_logging"/>
+			</panel>
 		</tab_container>
 		<panel name="weights_and_warning_panel">
 			<button label="ウェイトと料金の計算" name="calculate_btn" tool_tip="ウェイトと料金を計算します。"/>
@@ -265,7 +347,7 @@
 				アップロード料金：L$ [FEE]
 			</text>
 			<text name="prim_weight">
-				土地の負荷（ＬＩ）：[EQ]
+				土地への負荷（ＬＩ）：[EQ]
 			</text>
 			<text name="download_weight">
 				ダウンロード：[ST]
@@ -276,15 +358,43 @@
 			<text name="server_weight">
 				サーバー負荷：[SIM]
 			</text>
-			<text name="warning_title">
-				ご注意：
-			</text>
-			<text name="warning_message">
-				メッシュモデルをアップロードする権利がありません。権利の取得方法については[[VURL]]こちらを参照してください。
-			</text>
-			<text name="status">
-				[STATUS]
-			</text>
+			<panel name="price_breakdown_panel">
+				<text>
+					費用の内訳
+				</text>
+				<view_border name="price_breakdown_border"/>
+				<text name="price_breakdown_labels">
+					ダウンロード：
+物理効果数：
+インスタンス数：
+テクスチャ数：
+モデル：
+				</text>
+				<text name="price_breakdown">
+					[STREAMING]
+[PHYSICS]箇所
+[INSTANCES]個
+[TEXTURES]枚
+[MODEL]個
+				</text>
+			</panel>
+			<panel name="physics_costs_panel">
+				<text>
+					物理効果コスト
+				</text>
+				<view_border name="price_breakdown_border"/>
+				<text name="physics_breakdown_labels">基準の殻：
+メッシュ：
+分析済み：
+				</text>
+				<text name="physics_breakdown">[PCH]
+[PM]
+[PHU]
+				</text>
+			</panel>
+			<text name="warning_title">ご注意：</text>
+			<text name="warning_message">メッシュモデルをアップロードする権利がありません。権利の取得方法については[[VURL]]こちらを参照してください。</text>
+			<text name="status">[STATUS]</text>
 		</panel>
 	</panel>
 	<text name="lod_label">
@@ -306,7 +416,7 @@
 			</combo_item>
 		</combo_box>
 		<text name="label_display">
-			外観…
+			表示…
 		</text>
 		<check_box label="エッジ" name="show_edges"/>
 		<check_box label="物理効果" name="show_physics"/>

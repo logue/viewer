@@ -4519,7 +4519,7 @@ www.secondlife.com から最新バージョンをダウンロードしてくだ�
 		エラー
 	</string>
 	<string name="MBFullScreenErr">
-		[WIDTH]✕[HEIGHT]では全画面で実行することができません。
+		[WIDTH]×[HEIGHT]では全画面で実行することができません。
 ウィンドウモードで実行中です。
 	</string>
 	<string name="MBDestroyWinFailed">
@@ -6602,13 +6602,13 @@ www.secondlife.com から最新バージョンをダウンロードしてくだ�
 		none/none
 	</string>
 	<string name="texture_load_dimensions_error">
-		[WIDTH]✕[HEIGHT]以上の画像は読み込めません。
+		[WIDTH]×[HEIGHT]以上の画像は読み込めません。
 	</string>
 	<string name="outfit_photo_load_dimensions_error">
-		アウトフィット画像の最大サイズは、[WIDTH]✕[HEIGHT]です。画像のサイズを調整するか、別の画像を使用してください。
+		アウトフィット画像の最大サイズは、[WIDTH]×[HEIGHT]です。画像のサイズを調整するか、別の画像を使用してください。
 	</string>
 	<string name="outfit_photo_select_dimensions_error">
-		アウトフィット画像の最大サイズは、[WIDTH]✕[HEIGHT]です。別のテクスチャを選択してください。
+		アウトフィット画像の最大サイズは、[WIDTH]×[HEIGHT]です。別のテクスチャを選択してください。
 	</string>
 	<string name="outfit_photo_verify_dimensions_error">
 		画像の寸法を確認できません。画像サイズがピッカーに表示されるまでお待ちください。

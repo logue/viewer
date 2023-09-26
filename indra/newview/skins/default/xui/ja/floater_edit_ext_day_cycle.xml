@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <floater name="env_edit_extdaycycle" title="デイサイクルを編集">
 	<string name="title_new">
-	<string name="title_new">
 		新しいデイサイクルを作成
 	</string>
 	<string name="title_edit">
