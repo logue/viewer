@@ -137,17 +137,6 @@
       <key>Value</key>
       <integer>1</integer>
     </map>
-    <key>AdvanceOutfitSnapshot</key>
-    <map>
-      <key>Comment</key>
-      <string>Display advanced parameter settings in outfit snaphot interface</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>1</integer>
-    </map>
     <key>AgentPause</key>
     <map>
       <key>Comment</key>
@@ -214,17 +203,6 @@
       <key>Value</key>
       <integer>1</integer>
     </map>
-    <key>AnimationDebug</key>
-    <map>
-      <key>Comment</key>
-      <string>Show active animations in a bubble above avatars head</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>0</integer>
-    </map>
     <key>AppearanceCameraMovement</key>
     <map>
       <key>Comment</key>
@@ -269,17 +247,6 @@
       <key>Value</key>
       <integer>0</integer>
     </map>
-    <key>AskedAboutCrashReports</key>
-    <map>
-      <key>Comment</key>
-      <string>Turns off dialog asking if you want to enable crash reporting</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>0</integer>
-    </map>
     <key>AuctionShowFence</key>
     <map>
       <key>Comment</key>
@@ -301,17 +268,6 @@
       <string>F32</string>
       <key>Value</key>
       <real>0.5</real>
-    </map>
-    <key>AudioLevelDoppler</key>
-    <map>
-      <key>Comment</key>
-      <string>Scale of doppler effect on moving audio sources (1.0 = normal, &lt;1.0 = diminished doppler effect, &gt;1.0 = enhanced doppler effect)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>F32</string>
-      <key>Value</key>
-      <real>1.0</real>
     </map>
     <key>AudioLevelMaster</key>
     <map>
@@ -357,28 +313,6 @@
       <key>Value</key>
       <real>0.3</real>
     </map>
-    <key>AudioLevelRolloff</key>
-    <map>
-      <key>Comment</key>
-      <string>Controls the distance-based dropoff of audio volume (fraction or multiple of default audio rolloff)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>F32</string>
-      <key>Value</key>
-      <real>1.0</real>
-    </map>
-    <key>AudioLevelUnderwaterRolloff</key>
-    <map>
-      <key>Comment</key>
-      <string>Controls the distance-based dropoff of audio volume underwater(fraction or multiple of default audio rolloff)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>F32</string>
-      <key>Value</key>
-      <real>5.0</real>
-    </map>
     <key>AudioLevelSFX</key>
     <map>
       <key>Comment</key>
@@ -405,17 +339,6 @@
     <map>
       <key>Comment</key>
       <string>Audio level of voice chat</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>F32</string>
-      <key>Value</key>
-      <real>0.5</real>
-    </map>
-    <key>AudioLevelWind</key>
-    <map>
-      <key>Comment</key>
-      <string>Audio level of wind noise when standing still</string>
       <key>Persist</key>
       <integer>1</integer>
       <key>Type</key>
@@ -456,17 +379,6 @@
       <key>Value</key>
       <integer>0</integer>
     </map>
-  <key>AutoAcceptNewInventory</key>
-    <map>
-      <key>Comment</key>
-      <string>Automatically accept new notecards/textures/landmarks</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>0</integer>
-    </map>
     <key>AutoLeveling</key>
     <map>
       <key>Comment</key>
@@ -477,17 +389,6 @@
       <string>Boolean</string>
       <key>Value</key>
       <integer>1</integer>
-    </map>
-    <key>AutoLoadWebProfiles</key>
-    <map>
-      <key>Comment</key>
-      <string>Automatically load ALL profile webpages without asking first.</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>0</integer>
     </map>
     <key>AutoLogin</key>
     <map>
@@ -676,17 +577,6 @@
       <key>Value</key>
       <real>1.0</real>
     </map>
-    <key>AvatarBacklight</key>
-    <map>
-      <key>Comment</key>
-      <string>Add rim lighting to avatar rendering to approximate shininess of skin</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>1</integer>
-    </map>
     <key>AvatarFeathering</key>
     <map>
       <key>Comment</key>
@@ -698,32 +588,6 @@
       <key>Value</key>
       <real>16.0</real>
     </map>
-    <key>AvatarPickerSortOrder</key>
-    <map>
-      <key>Comment</key>
-      <string>Specifies sort key for textures in avatar picker (+0 = name, +1 = date, +2 = folders always by name, +4 = system folders to top)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>U32</string>
-      <key>Value</key>
-      <integer>2</integer>
-    </map>
-    <key>AvatarPosFinalOffset</key>
-    <map>
-      <key>Comment</key>
-      <string>After-everything-else fixup for avatar position.</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Vector3</string>
-      <key>Value</key>
-      <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-      </array>
-    </map>
     <key>AvatarPickerURL</key>
     <map>
       <key>Comment</key>
@@ -734,50 +598,6 @@
       <string>String</string>
       <key>Value</key>
       <string>http://lecs-viewer-web-components.s3.amazonaws.com/v3.0/[GRID_LOWERCASE]/avatars.html</string>
-    </map>
-    <key>AvatarRotateThresholdSlow</key>
-    <map>
-      <key>Comment</key>
-      <string>Angle between avatar facing and camera facing at which avatar turns to face same direction as camera, when moving slowly (degrees)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>F32</string>
-      <key>Value</key>
-      <integer>60</integer>
-    </map>
-    <key>AvatarRotateThresholdFast</key>
-    <map>
-      <key>Comment</key>
-      <string>Angle between avatar facing and camera facing at which avatar turns to face same direction as camera, when moving fast (degrees)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>F32</string>
-      <key>Value</key>
-      <integer>2</integer>
-    </map>
-    <key>AvatarBakedTextureUploadTimeout</key>
-    <map>
-      <key>Comment</key>
-      <string>Specifes the maximum time in seconds to wait before sending your baked textures for avatar appearance.  Set to 0 to disable and wait until all baked textures are at highest resolution.</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>U32</string>
-      <key>Value</key>
-      <integer>60</integer>
-    </map>
-    <key>AvatarBakedLocalTextureUpdateTimeout</key>
-    <map>
-      <key>Comment</key>
-      <string>Specifes the maximum time in seconds to wait before updating your appearance during appearance mode.</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>U32</string>
-      <key>Value</key>
-      <integer>10</integer>
     </map>
     <key>AvatarPhysics</key>
     <map>
@@ -812,28 +632,6 @@
       <key>Value</key>
       <integer>40</integer>
     </map>
-    <key>BottomPanelNew</key>
-    <map>
-      <key>Comment</key>
-      <string>Enable the new bottom panel</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>0</integer>
-    </map>
-    <key>BrowserHomePage</key>
-    <map>
-      <key>Comment</key>
-      <string>[NOT USED]</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>String</string>
-      <key>Value</key>
-      <string>http://www.secondlife.com</string>
-    </map>
     <key>BrowserIgnoreSSLCertErrors</key>
     <map>
       <key>Comment</key>
@@ -860,17 +658,6 @@
         <map>
         <key>Comment</key>
             <string>Ignores appearance messages (for simulating Ruth)</string>
-        <key>Persist</key>
-            <integer>1</integer>
-        <key>Type</key>
-            <string>Boolean</string>
-        <key>Value</key>
-            <integer>0</integer>
-        </map>
-    <key>BlockSomeAvatarAppearanceVisualParams</key>
-        <map>
-        <key>Comment</key>
-            <string>Drop around 50% of VisualParam occurances in appearance messages (for simulating Ruth)</string>
         <key>Persist</key>
             <integer>1</integer>
         <key>Type</key>
@@ -1307,39 +1094,6 @@
       <key>Value</key>
       <integer>1</integer>
     </map>
-    <key>ButtonHPad</key>
-    <map>
-      <key>Comment</key>
-      <string>Default horizontal spacing between buttons (pixels)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>4</integer>
-    </map>
-    <key>ButtonHeight</key>
-    <map>
-      <key>Comment</key>
-      <string>Default height for normal buttons (pixels)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>23</integer>
-    </map>
-    <key>ButtonHeightSmall</key>
-    <map>
-      <key>Comment</key>
-      <string>Default height for small buttons (pixels)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>23</integer>
-    </map>
     <key>EnableDiskCacheDebugInfo</key>
     <map>
       <key>Comment</key>
@@ -1394,17 +1148,6 @@
       <string>String</string>
       <key>Value</key>
       <string />
-    </map>
-    <key>CacheNumberOfRegionsForObjects</key>
-    <map>
-      <key>Comment</key>
-      <string>Controls number of regions to be cached for objects.</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>U32</string>
-      <key>Value</key>
-      <integer>128</integer>
     </map>
     <key>CacheSize</key>
     <map>
@@ -1690,17 +1433,6 @@
       <key>Value</key>
       <integer>1</integer>
     </map>
-    <key>ChatBarStealsFocus</key>
-    <map>
-      <key>Comment</key>
-      <string>Whenever keyboard focus is removed from the UI, and the chat bar is visible, the chat bar takes focus</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>1</integer>
-    </map>
     <key>LetterKeysFocusChatBar</key>
     <map>
       <key>Comment</key>
@@ -1767,43 +1499,10 @@
         <key>Value</key>
         <integer>100</integer>
     </map>
-    <key>ChatLoadGroupTimeout</key>
-    <map>
-        <key>Comment</key>
-        <string>Time we give the server to send group participants before we hit the server for group info (seconds)</string>
-        <key>Persist</key>
-        <integer>1</integer>
-        <key>Type</key>
-        <string>F32</string>
-        <key>Value</key>
-        <real>10.0</real>
-    </map>
     <key>ChatOnlineNotification</key>
     <map>
       <key>Comment</key>
       <string>Provide notifications for when friend log on and off of SL</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>1</integer>
-    </map>
-    <key>ChatPersistTime</key>
-    <map>
-      <key>Comment</key>
-      <string>Time for which chat stays visible in console (seconds)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>F32</string>
-      <key>Value</key>
-      <real>20.0</real>
-    </map>
-    <key>ChatShowTimestamps</key>
-    <map>
-      <key>Comment</key>
-      <string>Show timestamps in chat</string>
       <key>Persist</key>
       <integer>1</integer>
       <key>Type</key>
@@ -1832,50 +1531,6 @@
       <string>String</string>
       <key>Value</key>
       <string />
-    </map>
-    <key>ContextConeInAlpha</key>
-    <map>
-      <key>Comment</key>
-      <string>Cone In Alpha</string>
-      <key>Persist</key>
-      <integer>0</integer>
-      <key>Type</key>
-      <string>F32</string>
-      <key>Value</key>
-      <real>0.0</real>
-    </map>
-    <key>ContextConeOutAlpha</key>
-    <map>
-      <key>Comment</key>
-      <string>Cone Out Alpha</string>
-      <key>Persist</key>
-      <integer>0</integer>
-      <key>Type</key>
-      <string>F32</string>
-      <key>Value</key>
-      <real>1.0</real>
-    </map>
-    <key>ContextConeFadeTime</key>
-    <map>
-      <key>Comment</key>
-      <string>Cone Fade Time</string>
-      <key>Persist</key>
-      <integer>0</integer>
-      <key>Type</key>
-      <string>F32</string>
-      <key>Value</key>
-      <real>.08</real>
-    </map>
-    <key>ConversationHistoryPageSize</key>
-    <map>
-      <key>Comment</key>
-      <string>Chat history of conversation opened from call log is displayed by pages. So this is number of entries per page.</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>100</integer>
     </map>
     <key>ConversationSortOrder</key>
     <map>
@@ -2055,17 +1710,6 @@
       <key>Value</key>
       <integer>40</integer>
     </map>
-    <key>ContactsTornOff</key>
-    <map>
-      <key>Comment</key>
-      <string>Show contacts window separately from Communicate window.</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>0</integer>
-    </map>
     <key>CookiesEnabled</key>
     <map>
       <key>Comment</key>
@@ -2187,17 +1831,6 @@
       <key>Value</key>
       <integer>0</integer>
     </map>
-  <key>CurlMaximumNumberOfHandles</key>
-  <map>
-    <key>Comment</key>
-    <string>Maximum number of handles curl can use (requires restart)</string>
-    <key>Persist</key>
-    <integer>1</integer>
-    <key>Type</key>
-    <string>S32</string>
-    <key>Value</key>
-    <integer>256</integer>
-  </map>
   <key>CurlRequestTimeOut</key>
   <map>
     <key>Comment</key>
@@ -2208,17 +1841,6 @@
     <string>F32</string>
     <key>Value</key>
     <real>120.0</real>
-  </map>
-  <key>CurlUseMultipleThreads</key>
-  <map>
-    <key>Comment</key>
-    <string>Use background threads for executing curl_multi_perform (requires restart)</string>
-    <key>Persist</key>
-    <integer>1</integer>
-    <key>Type</key>
-    <string>Boolean</string>
-    <key>Value</key>
-    <integer>1</integer>
   </map>
     <key>Cursor3D</key>
     <map>
@@ -2242,17 +1864,6 @@
       <key>Value</key>
       <string></string>
     </map>
-    <key>CustomServer</key>
-    <map>
-      <key>Comment</key>
-      <string>Specifies IP address or hostname of grid to which you connect</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>String</string>
-      <key>Value</key>
-      <string />
-    </map>
   <key>DebugAnimatedObjects</key>
   <map>
     <key>Comment</key>
@@ -2275,17 +1886,6 @@
     <key>Value</key>
     <integer>0</integer>
   </map>
-  <key>AnimatedObjectsIgnoreLimits</key>
-  <map>
-    <key>Comment</key>
-    <string>Ignore server-enforced limits on animated objects. This is only useful for server testing.</string>
-    <key>Persist</key>
-    <integer>1</integer>
-    <key>Type</key>
-    <string>Boolean</string>
-    <key>Value</key>
-    <integer>0</integer>
-  </map>
   <key>AnimatedObjectsAllowLeftClick</key>
   <map>
     <key>Comment</key>
@@ -2296,17 +1896,6 @@
     <string>Boolean</string>
     <key>Value</key>
     <integer>0</integer>
-  </map>
-  <key>AnimatedObjectsGlobalScale</key>
-  <map>
-    <key>Comment</key>
-    <string>Temporary testing: allow an extra scale factor to be forced on animated objects.</string>
-    <key>Persist</key>
-    <integer>1</integer>
-    <key>Type</key>
-    <string>F32</string>
-    <key>Value</key>
-    <real>1.00</real>
   </map>
   <key>AnimatedObjectsMaxLegalOffset</key>
   <map>
@@ -2329,17 +1918,6 @@
     <string>F32</string>
     <key>Value</key>
     <real>64.0</real>
-  </map>
-  <key>AvatarBoundingBoxComplexity</key>
-  <map>
-    <key>Comment</key>
-    <string>How many aspects to consider for avatar bounding box</string>
-    <key>Persist</key>
-    <integer>1</integer>
-    <key>Type</key>
-    <string>S32</string>
-    <key>Value</key>
-    <integer>3</integer>
   </map>
   <key>DebugAvatarAppearanceMessage</key>
   <map>
@@ -2451,17 +2029,6 @@
       <key>Value</key>
       <integer>1</integer>
     </map>
-    <key>DebugInventoryFilters</key>
-    <map>
-      <key>Comment</key>
-      <string>Turn on debugging display for inventory filtering</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>0</integer>
-    </map>
     <key>DebugPermissions</key>
     <map>
       <key>Comment</key>
@@ -2521,18 +2088,6 @@
     <map>
       <key>Comment</key>
       <string>Show Total Allocated Memory</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>0</integer>
-    </map>
-    <key>DebugShowPrivateMem</key>
-    <!-- deprecated (see MAINT-8091) -->
-    <map>
-      <key>Comment</key>
-      <string>(Deprecated) Show Private Mem Info</string>
       <key>Persist</key>
       <integer>1</integer>
       <key>Type</key>
@@ -2605,435 +2160,6 @@
       <string>Boolean</string>
       <key>Value</key>
       <integer>0</integer>
-    </map>
-  <key>DebugSlshareLogTag</key>
-    <map>
-      <key>Comment</key>
-      <string>Request slshare-service debug logging</string>
-      <key>Persist</key>
-      <integer>0</integer>
-      <key>Type</key>
-      <string>String</string>
-      <key>Value</key>
-      <string/>
-    </map>
-  <key>DebugStatModeFPS</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeBandwidth</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModePacketLoss</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatMode</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeKTrisDrawnFr</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeKTrisDrawnSec</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeTotalObjs</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeNewObjs</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeTextureCount</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeRawCount</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeGLMem</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeFormattedMem</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeRawMem</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeBoundMem</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModePacketsIn</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModePacketsOut</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeObjects</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeTexture</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeAsset</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeLayers</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeActualIn</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeActualOut</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeTimeDialation</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeSimFPS</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModePhysicsFPS</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModePinnedObjects</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeLowLODObjects</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeMemoryAllocated</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeAgentUpdatesSec</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeMainAgents</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeChildAgents</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeSimObjects</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeSimActiveObjects</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeSimActiveScripts</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeSimScriptEvents</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeSimInPPS</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeSimOutPPS</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
-    </map>
-    <key>DebugStatModeSimPendingDownloads</key>
-    <map>
-      <key>Comment</key>
-      <string>Mode of stat in Statistics floater</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>-1</integer>
     </map>
     <key>SimPendingUploads</key>
     <map>
@@ -3222,17 +2348,6 @@
       <key>Value</key>
       <integer>0</integer>
     </map>
-  <key>DefaultBlankNormalTexture</key>
-  <map>
-    <key>Comment</key>
-    <string>Texture used as 'Blank' in texture picker for normal maps. (UUID texture reference)</string>
-    <key>Persist</key>
-    <integer>1</integer>
-    <key>Type</key>
-    <string>String</string>
-    <key>Value</key>
-    <string>5b53359e-59dd-d8a2-04c3-9e65134da47a</string>
-  </map>
 	<key>DefaultFemaleAvatar</key>
 	<map>
 	  <key>Comment</key>
@@ -3266,28 +2381,6 @@
 	  <key>Value</key>
 	  <string>Male Shape &amp; Outfit</string>
 	</map>
-  <key>DefaultObjectNormalTexture</key>
-  <map>
-    <key>Comment</key>
-    <string>Texture used as 'Default' in texture picker for normal map. (UUID texture reference)</string>
-    <key>Persist</key>
-    <integer>1</integer>
-    <key>Type</key>
-    <string>String</string>
-    <key>Value</key>
-    <string>85f28839-7a1c-b4e3-d71d-967792970a7b</string>
-  </map>
-  <key>DefaultObjectSpecularTexture</key>
-  <map>
-    <key>Comment</key>
-    <string>Texture used as 'Default' in texture picker for specular map. (UUID texture reference)</string>
-    <key>Persist</key>
-    <integer>1</integer>
-    <key>Type</key>
-    <string>String</string>
-    <key>Value</key>
-    <string>87e0e8f7-8729-1ea8-cfc9-8915773009db</string>
-  </map>
   <key>DefaultObjectTexture</key>
     <map>
       <key>Comment</key>
@@ -3298,17 +2391,6 @@
       <string>String</string>
       <key>Value</key>
       <string>89556747-24cb-43ed-920b-47caed15465f</string>
-    </map>
-    <key>DefaultUploadCost</key>
-    <map>
-      <key>Comment</key>
-      <string>Default sound/image/file upload cost(in case economy data is not available).</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>U32</string>
-      <key>Value</key>
-      <integer>10</integer>
     </map>
     <key>DestinationGuideURL</key>
     <map>
@@ -3420,83 +2502,6 @@
       <key>Value</key>
       <integer>1</integer>
     </map>
-    <key>DisplayAvatarAgentTarget</key>
-    <map>
-      <key>Comment</key>
-      <string>Show avatar positioning locators (animation debug)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>0</integer>
-    </map>
-    <key>DisplayChat</key>
-    <map>
-      <key>Comment</key>
-      <string>Display Latest Chat message on LCD</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>1</integer>
-    </map>
-    <key>DisplayDebug</key>
-    <map>
-      <key>Comment</key>
-      <string>Display Network Information on LCD</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>1</integer>
-    </map>
-    <key>DisplayDebugConsole</key>
-    <map>
-      <key>Comment</key>
-      <string>Display Console Debug Information on LCD</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>1</integer>
-    </map>
-    <key>DisplayIM</key>
-    <map>
-      <key>Comment</key>
-      <string>Display Latest IM message on LCD</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>1</integer>
-    </map>
-    <key>DisplayLinden</key>
-    <map>
-      <key>Comment</key>
-      <string>Display Account Information on LCD</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>1</integer>
-    </map>
-    <key>DisplayRegion</key>
-    <map>
-      <key>Comment</key>
-      <string>Display Location information on LCD</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>1</integer>
-    </map>
     <key>DisplayTimecode</key>
     <map>
       <key>Comment</key>
@@ -3523,28 +2528,6 @@
     <map>
       <key>Comment</key>
       <string>Whether to use the auto default to 96 draw distance</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>1</integer>
-    </map>
-    <key>ClickActionBuyEnabled</key>
-    <map>
-      <key>Comment</key>
-      <string>Enable click to buy actions in tool pie menu</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>1</integer>
-    </map>
-    <key>ClickActionPayEnabled</key>
-    <map>
-      <key>Comment</key>
-      <string>Enable click to pay actions in tool pie menu</string>
       <key>Persist</key>
       <integer>1</integer>
       <key>Type</key>
@@ -3584,72 +2567,6 @@
       <string>Boolean</string>
       <key>Value</key>
       <integer>1</integer>
-    </map>
-    <key>DragAndDropToolTipDelay</key>
-    <map>
-      <key>Comment</key>
-      <string>Seconds before displaying tooltip when performing drag and drop operation</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>F32</string>
-      <key>Value</key>
-      <real>0.10000000149</real>
-    </map>
-    <key>DragAndDropDistanceThreshold</key>
-    <map>
-      <key>Comment</key>
-      <string>Number of pixels that mouse should move before triggering drag and drop mode</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>3</integer>
-    </map>
-    <key>DropShadowButton</key>
-    <map>
-      <key>Comment</key>
-      <string>Drop shadow width for buttons (pixels)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>2</integer>
-    </map>
-    <key>DropShadowFloater</key>
-    <map>
-      <key>Comment</key>
-      <string>Drop shadow width for floaters (pixels)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>5</integer>
-    </map>
-    <key>DropShadowSlider</key>
-    <map>
-      <key>Comment</key>
-      <string>Drop shadow width for sliders (pixels)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>3</integer>
-    </map>
-    <key>DropShadowTooltip</key>
-    <map>
-      <key>Comment</key>
-      <string>Drop shadow width for tooltips (pixels)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>4</integer>
     </map>
     <key>DynamicCameraStrength</key>
     <map>
@@ -6689,28 +5606,6 @@
       <key>Value</key>
       <real>0.25</real>
     </map>
-    <key>MenuBarHeight</key>
-    <map>
-      <key>Comment</key>
-      <string />
-      <key>Persist</key>
-      <integer>0</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>18</integer>
-    </map>
-    <key>MenuBarWidth</key>
-    <map>
-      <key>Comment</key>
-      <string />
-      <key>Persist</key>
-      <integer>0</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>410</integer>
-    </map>
     <key>MePanelOpened</key>
     <map>
       <key>Comment</key>
@@ -7363,17 +6258,6 @@
       <string>S32</string>
       <key>Value</key>
       <integer>90</integer>
-    </map>
-    <key>ChannelBottomPanelMargin</key>
-    <map>
-      <key>Comment</key>
-      <string>Space from a lower toast to the Bottom Tray</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>S32</string>
-      <key>Value</key>
-      <integer>35</integer>
     </map>
     <key>NotificationChannelRightMargin</key>
     <map>
@@ -8052,17 +6936,6 @@
       <string>F32</string>
       <key>Value</key>
       <real>6.0</real>
-    </map>
-    <key>ClothingLoadingDelay</key>
-    <map>
-      <key>Comment</key>
-      <string>Time to wait for avatar appearance to resolve before showing world (seconds)</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>F32</string>
-      <key>Value</key>
-      <real>10.0</real>
     </map>
 	<key>PreferredMaturity</key>
     <map>
@@ -13003,17 +11876,6 @@
       <key>Value</key>
       <string></string>
     </map>
-    <key>BingTranslateAPIKey</key>
-    <map>
-      <key>Comment</key>
-      <string>(Deprecated) Bing AppID to use with the Microsoft Translator API</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>String</string>
-      <key>Value</key>
-      <string></string>
-    </map>
     <key>AzureTranslateAPIKey</key>
     <map>
       <key>Comment</key>
@@ -13323,61 +12185,6 @@
       <string>5748decc-f629-461c-9a36-a35a221fe21f</string>
     </map>
     <key>UIImgDefaultUnderwearUUID</key>
-    <map>
-      <key>Comment</key>
-      <string />
-      <key>Persist</key>
-      <integer>0</integer>
-      <key>Type</key>
-      <string>String</string>
-      <key>Value</key>
-      <string>5748decc-f629-461c-9a36-a35a221fe21f</string>
-    </map>
-    <key>StartUpChannelUUID</key>
-    <map>
-      <key>Comment</key>
-      <string />
-      <key>Persist</key>
-      <integer>0</integer>
-      <key>Type</key>
-      <string>String</string>
-      <key>Value</key>
-      <string>B56AF90D-6684-48E4-B1E4-722D3DEB2CB6</string>
-    </map>
-    <key>NearByChatChannelUUID</key>
-    <map>
-      <key>Comment</key>
-      <string />
-      <key>Persist</key>
-      <integer>0</integer>
-      <key>Type</key>
-      <string>String</string>
-      <key>Value</key>
-      <string>E1158BD6-661C-4981-9DAD-4DCBFF062502</string>
-    </map>
-    <key>NotificationChannelUUID</key>
-    <map>
-      <key>Comment</key>
-      <string />
-      <key>Persist</key>
-      <integer>0</integer>
-      <key>Type</key>
-      <string>String</string>
-      <key>Value</key>
-      <string>AEED3193-8709-4693-8558-7452CCA97AE5</string>
-    </map>
-    <key>AlertChannelUUID</key>
-    <map>
-      <key>Comment</key>
-      <string />
-      <key>Persist</key>
-      <integer>0</integer>
-      <key>Type</key>
-      <string>String</string>
-      <key>Value</key>
-      <string>F3E07BC8-A973-476D-8C7F-F3B7293975D1</string>
-    </map>
-    <key>UIImgWhiteUUID</key>
     <map>
       <key>Comment</key>
       <string />
@@ -14191,17 +12998,6 @@
       <key>Value</key>
       <integer>1</integer>
     </map>
-    <key>UseEnvironmentFromRegion</key>
-    <map>
-      <key>Comment</key>
-      <string>Choose whether to use the region's environment settings, or override them with the local settings.</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>1</integer>
-    </map>
     <key>EnvironmentPersistAcrossLogin</key>
     <map>
       <key>Comment</key>
@@ -14212,62 +13008,6 @@
       <string>Boolean</string>
       <key>Value</key>
       <integer>0</integer>
-    </map>
-    <key>UseDayCycle</key>
-    <map>
-      <key>Comment</key>
-      <string>Whether to use use a day cycle or a fixed sky.</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>1</integer>
-    </map>
-    <key>WaterPresetName</key>
-    <map>
-      <key>Comment</key>
-      <string>Water preset to use. May be superseded by region settings.</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>String</string>
-      <key>Value</key>
-      <string>Default</string>
-    </map>
-    <key>SkyPresetName</key>
-    <map>
-      <key>Comment</key>
-      <string>Sky preset to use. May be superseded by region settings or by a day cycle (see DayCycleName).</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>String</string>
-      <key>Value</key>
-      <string>Default</string>
-    </map>
-    <key>DayCycleName</key>
-    <map>
-      <key>Comment</key>
-      <string>Day cycle to use. May be superseded by region settings.</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>String</string>
-      <key>Value</key>
-      <string>Default</string>
-    </map>
-    <key>UseExternalBrowser</key>
-    <!-- deprecated (see MAINT-4127) -->
-    <map>
-      <key>Comment</key>
-      <string>(Deprecated) Use default browser when opening web pages instead of in-world browser.</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <boolean>1</boolean>
     </map>
     <key>PreferredBrowserBehavior</key>
     <map>
@@ -15305,17 +14045,6 @@
       <key>Value</key>
       <integer>0</integer>
     </map>
-    <key>AssetStorageLogFrequency</key>
-        <map>
-        <key>Comment</key>
-        <string>Seconds between display of AssetStorage info in log (0 for never)</string>
-        <key>Persist</key>
-        <integer>1</integer>
-        <key>Type</key>
-        <string>F32</string>
-        <key>Value</key>
-        <real>60.0</real>
-        </map>
     <key>LogWearableAssetSave</key>
     <map>
       <key>Comment</key>
@@ -15542,28 +14271,6 @@
       <key>Value</key>
       <real>120.0</real>
     </map>
-    <key>DestinationGuideHintTimeout</key>
-    <map>
-      <key>Comment</key>
-      <string>Number of seconds to wait before telling resident about destination guide.</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>F32</string>
-      <key>Value</key>
-      <real>1200.0</real>
-    </map>
-    <key>SidePanelHintTimeout</key>
-    <map>
-      <key>Comment</key>
-      <string>Number of seconds to wait before telling resident about side panel.</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>F32</string>
-      <key>Value</key>
-      <real>300.0</real>
-    </map>
     <key>GroupMembersSortOrder</key>
     <map>
       <key>Comment</key>
@@ -15607,17 +14314,6 @@
       <string>Boolean</string>
       <key>Value</key>
       <integer>0</integer>
-    </map>
-    <key>AvatarInspectorTooltipDelay</key>
-    <map>
-      <key>Comment</key>
-      <string>Seconds before displaying avatar inspector tooltip</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>F32</string>
-      <key>Value</key>
-      <real>0.35</real>
     </map>
     <key>ObjectInspectorTooltipDelay</key>
     <map>
@@ -15827,17 +14523,6 @@
       <string>Boolean</string>
       <key>Value</key>
       <integer>0</integer>
-    </map>
-     <key>AllowBottomTrayButtonReordering</key>
-    <map>
-      <key>Comment</key>
-      <string>Allow user to move and hide bottom tray buttons</string>
-      <key>Persist</key>
-      <integer>1</integer>
-      <key>Type</key>
-      <string>Boolean</string>
-      <key>Value</key>
-      <integer>1</integer>
     </map>
     <key>AllowSelectAvatar</key>
     <map>
@@ -16652,17 +15337,6 @@
     <string>U32</string>
     <key>Value</key>
     <integer>7000</integer>
-  </map>
-  <key>DisablePrecacheDelayAfterTeleporting</key>
-  <map>
-    <key>Comment</key>
-    <string>Disables the artificial delay in the viewer that precaches some incoming assets</string>
-    <key>Persist</key>
-    <integer>0</integer>
-    <key>Type</key>
-    <string>Boolean</string>
-    <key>Value</key>
-    <integer>0</integer>
   </map>
   <key>VersionChannelName</key>
     <map>

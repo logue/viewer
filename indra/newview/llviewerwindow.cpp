@@ -2148,13 +2148,15 @@ void LLViewerWindow::initBase()
 	gFloaterView->setFloaterSnapView(main_view->getChild<LLView>("floater_snap_region")->getHandle());
 	gSnapshotFloaterView = main_view->getChild<LLSnapshotFloaterView>("Snapshot Floater View");
 
+    const F32 CHAT_PERSIST_TIME = 20.f;
+
 	// Console
 	llassert( !gConsole );
 	LLConsole::Params cp;
 	cp.name("console");
 	cp.max_lines(gSavedSettings.getS32("ConsoleBufferSize"));
 	cp.rect(getChatConsoleRect());
-	cp.persist_time(gSavedSettings.getF32("ChatPersistTime"));
+	cp.persist_time(CHAT_PERSIST_TIME);
 	cp.font_size_index(gSavedSettings.getS32("ChatFontSize"));
 	cp.follows.flags(FOLLOWS_LEFT | FOLLOWS_RIGHT | FOLLOWS_BOTTOM);
 	gConsole = LLUICtrlFactory::create<LLConsole>(cp);
@@ -3370,11 +3372,13 @@ void LLViewerWindow::updateUI()
 
 	if (gLoggedInTime.getStarted())
 	{
-		if (gLoggedInTime.getElapsedTimeF32() > gSavedSettings.getF32("DestinationGuideHintTimeout"))
+        const F32 DESTINATION_GUIDE_HINT_TIMEOUT = 1200.f;
+        const F32 SIDE_PANEL_HINT_TIMEOUT = 300.f;
+		if (gLoggedInTime.getElapsedTimeF32() > DESTINATION_GUIDE_HINT_TIMEOUT)
 		{
 			LLFirstUse::notUsingDestinationGuide();
 		}
-		if (gLoggedInTime.getElapsedTimeF32() > gSavedSettings.getF32("SidePanelHintTimeout"))
+		if (gLoggedInTime.getElapsedTimeF32() > SIDE_PANEL_HINT_TIMEOUT)
 		{
 			LLFirstUse::notUsingSidePanel();
 		}
