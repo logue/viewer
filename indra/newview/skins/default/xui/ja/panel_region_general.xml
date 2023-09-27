@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <panel label="リージョン" name="General">
-	<text name="region_text_lbl">リージョン：</text>
+	<text name="region_text_lbl">
 		リージョン：
 	</text>
 	<text left_delta="70" name="region_text">

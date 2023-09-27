@@ -19,9 +19,6 @@
 	</panel>
 	<search_editor label="アウトフィットをフィルタ" name="Filter"/>
 	<panel name="panel_outfits_inventory"/>
-	<!--
-	<button label="新しいアウトフィット" name="newlook_btn"/>
-	-->
 	<panel name="panel_outfit_edit"/>
 	<panel name="panel_edit_wearable"/>
 </panel>

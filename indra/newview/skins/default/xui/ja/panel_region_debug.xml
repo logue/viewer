@@ -13,7 +13,7 @@
 	<text name="objret_text_lbl">
 		オブジェクトの返却
 	</text>
-	<text name="resident_text_lbl">住人：</text>
+	<text name="resident_text_lbl">
 		住人：
 	</text>
 	<line_editor name="target_avatar_name">

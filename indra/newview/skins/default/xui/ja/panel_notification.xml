@@ -5,7 +5,5 @@
 		<text name="caution_text_box"/>
 		<text_editor name="text_editor_box"/>
 	</panel>
-	<panel label="コントロールパネル" name="control_panel">
-		<!--  Notes: This panel holds buttons of notification. Change of its size can affect the layout of buttons. -->
-	</panel>
+	<panel label="コントロールパネル" name="control_panel"/>
 </panel>
