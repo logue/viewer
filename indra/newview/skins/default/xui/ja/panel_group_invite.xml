@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <panel label="メンバーを招待" name="invite_panel">
 	<panel.string name="confirm_invite_owner_str">
-		本当に新しい所有者を招待しますか？この操作は取り消しできません。
+		本当に新しい所有者を招待してもよろしいですか？この操作は取り消しできません。
 	</panel.string>
 	<panel.string name="loading">
 		（読み込んでいます…）
 	</panel.string>
 	<panel.string name="already_in_group">
-		選択した住人のなかに、既にグループに所属している人がいるため、招待を送ることができませんでした。
-	</panel.string>
+		選択した住人のなかに、既にグループに所属している人がいるため、招待を送ることができませんでした
+		。</panel.string>
 	<panel.string name="invite_selection_too_large">
 		グループへの招待が送信されていません：選択された住人が多すぎます。
 グループへの招待は１回のリクエストあたり１００人に制限されています。

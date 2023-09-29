@@ -34,8 +34,8 @@
 			<slider label="Ｘ" name="cloud_density_x"/>
 			<slider label="Ｙ" name="cloud_density_y"/>
 			<slider label="密度" name="cloud_density_d"/>
-			<text name="cloud_detail_label"
-				>雲の詳細：
+			<text name="cloud_detail_label">
+				雲の詳細：
 			</text>
 			<slider label="Ｘ" name="cloud_detail_x"/>
 			<slider label="Ｙ" name="cloud_detail_y"/>

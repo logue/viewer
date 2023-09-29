@@ -4,7 +4,7 @@
 		空を編集：
 	</string>
 	<string name="edit_water">
-		水面を編集
+		水面を編集：
 	</string>
 	<layout_stack name="floater_stack">
 		<layout_panel name="info_panel">

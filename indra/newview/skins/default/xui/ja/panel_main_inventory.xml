@@ -33,6 +33,13 @@
 		<layout_panel name="add_btn_panel">
 			<button name="add_btn" tool_tip="新しいアイテムを追加します。"/>
 		</layout_panel>
+		<layout_panel name="open_folder_btn_panel">
+			<button name="open_folder_btn" tool_tip="すべてのフォルダを開きます。"/>
+		</layout_panel>
+		<layout_panel name="close_folder_btn_panel">
+			<button name="close_folder_btn" tool_tip="すべてのフォルダを閉じます。"/>
+		</layout_panel>
+		<layout_panel name="dummy_panel"/>
 		<layout_panel name="trash_btn_panel">
 			<dnd_button name="trash_btn" tool_tip="選択したアイテムを削除します。"/>
 		</layout_panel>

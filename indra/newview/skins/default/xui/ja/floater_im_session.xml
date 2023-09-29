@@ -28,8 +28,35 @@
 				<menu_button name="gear_btn" tool_tip="選択した人物に対する操作"/>
 				<button name="add_btn" tool_tip="この会話に他の人物を追加する"/>
 				<button name="voice_call_btn" tool_tip="ボイスチャット接続を開く"/>
+				<panel name="nearby_toolbar">
+					<button name="chat_history_btn" tool_tip="チャット履歴を見る"/>
+				</panel>
+				<panel name="p2p_toolbar">
+					<button name="profile_btn" tool_tip="プロフィールを見ます。"/>
+					<flyout_button name="teleport_btn" tool_tip="テレポートのオファーかリクエストします。">
+						<flyout_button.item label="テレポートのオファー" value="offer_teleport"/>
+						<flyout_button.item label="テレポートのリクエスト" value="request_teleport"/>
+					</flyout_button>
+					<button name="chat_history_btn" tool_tip="チャット履歴を見る"/>
+					<button name="pay_btn" tool_tip="このアバターに支払う"/>
+				</panel>
+				<panel name="group_toolbar">
+					<button name="profile_btn" tool_tip="プロフィールを見ます。"/>
+					<button name="chat_history_btn" tool_tip="チャット履歴を見ます。"/>
+					<button name="view_notices_btn" tool_tip="グループ通知を表示します。"/>
+					<flyout_button name="snooze_groupt_btn" tool_tip="グループチャットをスヌーズします。">
+						<flyout_button.item label="次のメッセージまで" value="0"/>
+						<flyout_button.item label="５分" value="5"/>
+						<flyout_button.item label="１５分" value="15"/>
+						<flyout_button.item label="３０分" value="30"/>
+						<flyout_button.item label="４５分" value="45"/>
+						<flyout_button.item label="１時間" value="60"/>
+						<flyout_button.item label="リログするまで" value="-1"/>
+					</flyout_button>
+				</panel>
 				<button name="close_btn" tool_tip="この会話を終了します。"/>
-				<button name="expand_collapse_btn" tool_tip="このペインを展開／折りたたみます。"/>
+				<button name="expand_collapse_btn" tool_tip="このペインの開閉します。"/>
+				<button name="tear_off_btn"/>
 			</layout_panel>
 			<layout_panel name="body_panel">
 				<layout_stack name="im_panels">
@@ -45,7 +72,10 @@
 			<layout_panel name="chat_layout_panel">
 				<layout_stack name="input_panels">
 					<layout_panel name="input_editor_layout_panel">
-						<chat_editor label="送信先" name="chat_editor"/>
+						<avatar_icon name="avatar_icon"/>
+						<group_icon name="group_chat_icon"/>
+						<icon name="nearby_chat_icon"/>
+						<chat_editor name="chat_editor"/>
 					</layout_panel>
 					<layout_panel name="input_button_layout_panel">
 						<button name="minz_btn" tool_tip="メッセージパネルの表示／非表示の切り替えを行います。"/>

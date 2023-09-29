@@ -38,8 +38,7 @@
 		</layout_panel>
 		<layout_panel name="layout_panel_required">
 			<text name="required_label">
-				必要最低金額
-			</text>
+				必要最低金額</text>
 			<text name="required_amount">
 				L$ [AMT]
 			</text>

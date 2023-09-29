@@ -6,7 +6,8 @@
 このまま、この場所にいるとログアウトされます。</string>
 	<string name="RestartSeconds">
 		再起動まであと
-[SECONDS]秒</string>
+[SECONDS]秒
+	</string>
 	<panel name="layout_panel_1">
 		<text name="region_name">
 			現在あなたがいるリージョン「‐最長リージョン名‐」は再起動しようとしています。
@@ -14,6 +15,7 @@
 このまま、この場所にいるとログアウトされます。</text>
 		<text name="restart_seconds">
 			再起動まであと
-32767秒</text>
+32767秒
+		</text>
 	</panel>
 </floater>

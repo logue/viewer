@@ -27,20 +27,10 @@
 	<text name="BetterText">
 		品質優先
 	</text>
-	<icon name="LowGraphicsDivet"/>
-	<icon name="LowMidGraphicsDivet"/>
-	<icon name="MidGraphicsDivet"/>
-	<icon name="MidHighGraphicsDivet"/>
-	<icon name="HighGraphicsDivet"/>
-	<icon name="HighUltraGraphicsDivet"/>
-	<icon name="UltraGraphicsDivet"/>
-	<slider name="QualityPerformanceSelection"/>
 	<slider control_name="RenderFarClip" label="描画距離：" name="DrawDistance"/>
 	<text name="DrawDistanceMeterText2">
 		ｍ
 	</text>
-	<check_box initial_value="true" label="大気（周辺）シェーダー" name="WindLightUseAtmosShaders"/>
-	<check_box initial_value="true" label="高度な光源モデル" name="UseLightShaders"/>
 	<button label="自動調整" name="AutoAdjustmentsButton"/>
 	<slider label="アバターの最大複雑度：" name="IndirectMaxComplexity" tool_tip="どの程度の複雑度で他のアバターをJellyDollとして描画するを設定します。"/>
 	<text name="IndirectMaxComplexityText">
@@ -51,6 +41,7 @@
 	</text>
 	<check_box label="フレンドは常に描画" name="AlwaysRenderFriends"/>
 	<button label="例外…" name="RenderExceptionsButton"/>
+	<slider label="ブライトネス（露光）" name="RenderExposure"/>
 	<button label="設定をプリセットとして保存…" name="PrefSaveButton"/>
 	<button label="プリセットを読み込む…" name="PrefLoadButton"/>
 	<button label="プリセットを削除…" name="PrefDeleteButton"/>

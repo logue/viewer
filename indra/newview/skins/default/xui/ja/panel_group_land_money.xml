@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <panel label="土地とL$" name="land_money_tab">
 	<panel.string name="help_text">
-		「土地の総利用量」が「総貢献額」以下、または同じになるまで警告が表示されます。
+		「土地の総利用面積」が「総貢献面積」以下、または同じになるまで警告が表示されます。
 	</panel.string>
 	<panel.string name="cant_view_group_land_text">
 		グループ所有地を確認する権限がありません。
@@ -34,7 +34,7 @@
 		</text>
 		<button label="マップ" name="map_button"/>
 		<text name="total_land_in_use_label">
-			土地の総利用量：
+			土地の総利用面積：
 		</text>
 		<text name="land_available_label">
 			利用可能な土地面積：

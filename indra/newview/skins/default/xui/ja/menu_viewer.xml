@@ -38,7 +38,7 @@
 				<menu_item_call label="スカート" name="Skirt"/>
 				<menu_item_call label="靴" name="Shoes"/>
 				<menu_item_call label="靴下" name="Socks"/>
-				<menu_item_call label="上着" name="Jacket"/>
+				<menu_item_call label="ジャケット" name="Jacket"/>
 				<menu_item_call label="手袋" name="Gloves"/>
 				<menu_item_call label="下着（上半身）" name="Self Undershirt"/>
 				<menu_item_call label="下着（下半身）" name="Self Underpants"/>
@@ -75,7 +75,13 @@
 		<menu_item_check label="ボイスチャット" name="Speak"/>
 		<menu_item_check label="会話ログ…" name="Conversation Log..."/>
 		<menu_item_separator/>
-		<menu label="ボイスモーフィング" name="VoiceMorphing"/>
+		<menu label="ボイスモーフィング" name="VoiceMorphing">
+			<menu_item_check label="ボイスモーフィングなし" name="NoVoiceMorphing"/>
+			<menu_item_separator/>
+			<menu_item_check label="プレビュー" name="Preview"/>
+			<menu_item_call label="購読…" name="Subscribe"/>
+			<menu_item_call label="プレミアム特典…" name="PremiumPerk"/>
+		</menu>
 		<menu_item_check label="ジェスチャー…" name="Gestures"/>
 		<menu_item_separator/>
 		<menu_item_check label="フレンド" name="My Friends"/>
@@ -107,7 +113,10 @@
 		<menu_item_call label="この土地を購入" name="Buy Land"/>
 		<menu_item_separator/>
 		<menu label="表示" name="LandShow">
-			<menu_item_check label="バンライン" name="Ban Lines"/>
+			<menu_item_check label="バンラインを隠す" name="Hide Ban Lines" />
+			<menu_item_check label="バンラインをぶつかったときに表示" name="Show Ban Lines On Collision" />
+			<menu_item_check label="バンラインを近づいたときに表示" name="Show Ban Lines On Proximity" />
+			<menu_item_separator />
 			<menu_item_check label="ビーコン（標識）" name="beacons"/>
 			<menu_item_check label="敷地境界線" name="Property Lines"/>
 			<menu_item_check label="土地所有者" name="Land Owners"/>
@@ -121,6 +130,7 @@
 		<menu label="自然環境" name="Environment">
 			<menu_item_check label="夜明け" name="Sunrise"/>
 			<menu_item_check label="正午" name="Noon"/>
+			<menu_item_check label="正午（レガシー）" name="legacy noon"/>
 			<menu_item_check label="夕方" name="Sunset"/>
 			<menu_item_check label="深夜" name="Midnight"/>
 			<menu_item_check label="共有された環境を使用" name="Use Shared Environment"/>
@@ -190,6 +200,9 @@
 			<menu_item_check label="選択した光の効果範囲を表示する" name="Show Light Radius for Selection"/>
 			<menu_item_check label="反射プローブのボリュームを表示" name="Show Reflection Probe Volumes"/>
 			<menu_item_check label="選択ビームを表示する" name="Show Selection Beam"/>
+			<menu_item_check label="ハイライトを透過" name="Highlight Transparent"/>
+			<menu_item_separator/>
+			<menu_item_check label="ポストプロセッシングを無効化" name="No Post"/>
 			<menu_item_separator/>
 			<menu_item_check label="グリッド吸着" name="Snap to Grid"/>
 			<menu_item_call label="オブジェクトのＸＹ軸をグリッドに吸着" name="Snap Object XY to Grid"/>
@@ -381,7 +394,7 @@
 			<menu_item_check label="スカルプト" name="Sculpt"/>
 			<menu label="テクスチャの密度" name="Texture Density">
 				<menu_item_check label="無し" name="None"/>
-				<menu_item_check label="原行" name="Current"/>
+				<menu_item_check label="現行" name="Current"/>
 				<menu_item_check label="望ましい" name="Desired"/>
 				<menu_item_check label="全て" name="Full"/>
 			</menu>
@@ -443,10 +456,13 @@
 			<menu_item_check label="シムの太陽の設定を無視する" name="Sim Sun Override"/>
 			<menu_item_check label="固定された天気" name="Fixed Weather"/>
 			<menu_item_call label="リージョンオブジェクトのキャッシュをダンプ" name="Dump Region Object Cache"/>
-			<menu_item_call label="関心リスト：フルアップデート" name="Interest List: Full Update"/>
+			<menu_item_check label="レコード状況をファイルに保存" name="Stats Recorder File"/>
+			<menu_item_check label="関心リスト：３６０モード" name="Interest List: 360 Mode"/>
+			<menu_item_call label="関心リストをリセット" name="Reset Interest Lists"/>
 		</menu>
 		<menu label="ＵＩ" name="UI">
 			<menu_item_call label="メディアブラウザ" name="Media Browser"/>
+			<menu_item_call label="SelectMgrをダンプ" name="Dump SelectMgr"/>
 			<menu_item_call label="インベントリの出力" name="Dump Inventory"/>
 			<menu_item_call label="タイマーをダンプ" name="Dump Timers"/>
 			<menu_item_call label="フォーカスホールダーをダンプ" name="Dump Focus Holder"/>

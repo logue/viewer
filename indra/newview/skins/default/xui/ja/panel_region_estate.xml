@@ -29,8 +29,7 @@
 	<text name="estate_manager_label">
 		不動産マネージャー：
 	</text>
-	<text name="allow_resident_label">
-		常時許可：
+	<text name="allow_resident_label">常時許可：
 	</text>
 	<button label="追加…" name="add_estate_manager_btn"/>
 	<button label="削除…" name="remove_estate_manager_btn"/>

@@ -16,6 +16,7 @@
 		プリセットを使用
 	</string>
 	<panel name="controls">
+		<!--TODO: replace + - images -->
 		<panel name="zoom">
 			<joystick_rotate name="cam_rotate_stick" tool_tip="対象にカメラを追尾させます。"/>
 			<button name="zoom_plus_btn"/>
@@ -34,7 +35,6 @@
 		<panel_camera_item name="object_view" tool_tip="オブジェクト視点"/>
 		<panel_camera_item name="mouselook_view" tool_tip="マウスルックビュー"/>
 		<combo_box name="preset_combo">
-			<combo_list mouse_wheel_opaque="true"/>
 			<combo_box.item label="プリセットを使用" name="Use preset" value="default"/>
 		</combo_box>
 		<button name="gear_btn" tool_tip="カメラのプリセット"/>

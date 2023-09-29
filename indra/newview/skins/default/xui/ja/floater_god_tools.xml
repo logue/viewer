@@ -5,7 +5,9 @@
 			<button label="このリージョンのマップの表示キャッシュを消去" label_selected="このリージョンのマップの表示キャッシュを消去" name="Flush This Region's Map Visibility Caches"/>
 		</panel>
 		<panel label="リージョン" name="region">
-			<text name="Region Name:">リージョン名：</text>
+			<text name="Region Name:">
+				リージョン名：
+			</text>
 			<check_box label="準備" name="check prelude" tool_tip="この設定により、このリージョンの準備をします。"/>
 			<check_box label="太陽固定" name="check fixed sun" tool_tip="太陽位置を固定（「リージョン／不動産」＞「地形」の場合と同様）"/>
 			<check_box label="ホーム位置をリセット" name="check reset home" tool_tip="住人がテレポートで外に出たら、ホームを目的地にリセットします。"/>
@@ -48,7 +50,7 @@
 				（ターゲットなし）
 			</panel.string>
 			<text name="Region Name:">
-				リージョン（地域）名：
+				リージョン名：
 			</text>
 			<text name="region name">
 				ウェルシュ
@@ -58,9 +60,7 @@
 			<check_box label="物理作用を無効化" name="disable physics" tool_tip="この設定により、このリージョン内の物理的作用をすべて無効化"/>
 			<button label="適用" label_selected="適用" name="Apply" tool_tip="上記の変更を適用するには、ここをクリックします。"/>
 			<button label="対象の設定" label_selected="対象の設定" name="Set Target" tool_tip="オブジェクト削除の対象となるアバターを設定してください。"/>
-			<text name="target_avatar_name">
-				（対象なし）
-			</text>
+			<text name="target_avatar_name">（対象なし）</text>
 			<button label="他の土地における対象のスクリプト・オブジェクトを削除" label_selected="他の土地における対象のスクリプト・オブジェクトを削除" name="Delete Target's Scripted Objects On Others Land" tool_tip="このリージョンにおいて対象が所有していないスクリプト・オブジェクトをすべて削除します。（コピー禁止）オブジェクトは返却されます。"/>
 			<button label="「すべての」土地における対象のスクリプト・オブジェクトを削除" label_selected="「すべての」土地における対象のスクリプト・オブジェクトを削除" name="Delete Target's Scripted Objects On *Any* Land" tool_tip="このリージョンにおいて対象が所有しているスクリプト・オブジェクトをすべて削除します。（コピー禁止）オブジェクトは返却されます。"/>
 			<button label="対象のオブジェクトを「すべて」削除" label_selected="対象のオブジェクトを「すべて」削除" name="Delete *ALL* Of Target's Objects" tool_tip="このリージョンにおいて対象が所有しているオブジェクトをすべて削除します。（コピー禁止）オブジェクトは返却されます。"/>

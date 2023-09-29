@@ -34,7 +34,7 @@
 		<radio_item label="今後のログインセッションから" name="next_session_lock" value="1"/>
 	</radio_group>
 	<view_border name="border_vsync"/>
-	<check_box label="VSyncを有効化" tool_tip="垂直同期を有効にして、画面のティアリングや途切れを軽減します。"/>
+	<check_box name="vsync" label="VSyncを有効化" tool_tip="垂直同期を有効にして、画面のティアリングや途切れを軽減します。"/>
 	<text name="vsync_desc">
 		モニターのリフレッシュレートをフレームレートと同期させます。
 	</text>

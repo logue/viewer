@@ -21,7 +21,7 @@
 			<text>
 				EasySitアニメーター1.2.4
 			</text>
-			<text>
+			<text >
 				カイルのスーパーヒーローＲＰＧ
 			</text>
 			<text>
@@ -31,6 +31,6 @@
 		</layout_panel>
 	</layout_stack>
 	<text name="No Experiences">
-		体験の貢献者ではありません。
+		あなたは、いかなる経験にも貢献していません。
 	</text>
 </panel>

@@ -31,7 +31,7 @@
 		北西
 	</panel.string>
 	<panel.string name="world_map_person">
-		１人
+		1人
 	</panel.string>
 	<panel.string name="world_map_people">
 		[NUMBER]人
@@ -52,7 +52,7 @@
 		南東
 	</text>
 	<text label="北東" name="floater_map_northeast" text="北東">
-		北東
+	北東
 	</text>
 	<text label="南西" name="floater_map_southwest" text="南西">
 		南西

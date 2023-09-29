@@ -10,7 +10,7 @@
 		<layout_panel name="ui_elastic_pad_left"/>
 		<layout_panel name="ui_container">
 			<icon name="sl_logo_small"/>
-			<combo_box label="Username" tool_tip="登録時に自分で選んだユーザー名（例：bobsmith12、Steller Sunshineなど）" name="username_combo">
+			<combo_box label="Username" tool_tip="登録時に自分で選んだユーザー名（例：bobsmith12、Steller Sunshineなど）を入力します。" name="username_combo">
 				<combo_box.combo_editor/>
 			</combo_box>
 			<line_editor name="password_edit" label="パスワード"/>
@@ -25,7 +25,6 @@
 			</text>
 			<check_box label="名前を記録" name="remember_name" tool_tip="すでに記憶されているユーザーは、「私」＞「初期設定」＞「詳細設定」＞「記憶されたユーザー名」から削除できます。"/>
 			<check_box label="パスワードを記録" name="remember_password"/>
-			<combo_box label="Select grid" name="server_combo"/>
 			<text name="forgot_password_text">
 				パスワードに関するヘルプ
 			</text>

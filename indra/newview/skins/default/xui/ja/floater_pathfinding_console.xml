@@ -101,7 +101,7 @@
 			<check_box label="水上飛行機" name="show_water_plane"/>
 			<check_box label="Ｘ線表示" name="show_xray"/>
 		</panel>
-		<panel label="パスをテスト" name="test_panel">
+		<panel label="経路のテスト" name="test_panel">
 			<text name="ctrl_click_label">
 				Ctrlキーを押しながらクリックして、始点を選択します。
 			</text>
