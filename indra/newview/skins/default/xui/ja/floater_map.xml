@@ -10,7 +10,7 @@
 		価格：L$ [PRICE]（L$ [PRICE_PER_SQM]／㎡）
 	</floater.string>
 	<floater.string name="ParcelSaleAreaMsg">
-		エリア：[AREA]㎡
+		面積：[AREA]㎡
 	</floater.string>
 	<floater.string name="ParcelOwnerMsg">
 		所有者：[PARCEL_OWNER]

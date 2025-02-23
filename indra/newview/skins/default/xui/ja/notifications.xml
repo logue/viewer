@@ -1782,7 +1782,7 @@ https://wiki.secondlife.com/wiki/Adding_Spelling_Dictionaries
 「[THIS_GPU]」まで
 	</notification>
 	<notification name="DisplaySetToRecommendedFeatureChange">
-		レンダリングサブシステムの変更により、画面設定は推奨レベルに設定されました。
+		描画サブシステムの変更により、画面設定は推奨レベルに設定されました。
 	</notification>
 	<notification name="ErrorMessage">
 [ERROR_MESSAGE]
@@ -3279,7 +3279,7 @@ Webページにリンクすると、他人がこの場所に簡単にアクセ�
 		残念ながら自分自身をフレンド登録することはできません。
 	</notification>
 	<notification name="AddSelfRenderExceptions">
-		あなた自身をレンダリングの例外リストに加えることはできません。
+		あなた自身を描画の例外リストに加えることはできません。
 	</notification>
 	<notification name="UploadingAuctionSnapshot">
 		インワールドとWebサイトのスナップショットをアップロードしています…
