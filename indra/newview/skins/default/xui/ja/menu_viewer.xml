@@ -236,7 +236,6 @@
 		<menu_item_call label="Second Life Wiki" name="Wiki"/>
 		<menu_item_call label="Second Lifeコミュニティフォーラム" name="Community Forums"/>
 		<menu_item_call label="Second Lifeサポートポータル" name="Support portal"/>
-		<menu_item_call label="Second Lifeニュース" name="Second Life News"/>
 		<menu_item_call label="Second Lifeブログ" name="Second Life Blogs"/>
 		<menu_item_separator/>
 		<menu_item_call label="嫌がらせの報告" name="Report Abuse"/>

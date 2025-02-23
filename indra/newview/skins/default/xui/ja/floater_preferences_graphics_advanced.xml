@@ -10,6 +10,14 @@
 	<slider label="最大パーティクル数：" name="MaxParticleCount"/>
 	<slider label="ポストプロセスの品質：" name="RenderPostProcess"/>
 	<slider label="近くの最大光源数：" name="MaxLights"/>
+	<text name="MaxTextureResolutionLabel">
+		最大ＬＯＤ解像度：
+	</text>
+	<combo_box name="MaxTextureResolution" tool_tip="テクスチャの「詳細レベル」の最大解像度を指定します。">
+		<combo_box.item label="512" name="512"/>
+		<combo_box.item label="1024" name="1024"/>
+		<combo_box.item label="2048" name="2048"/>
+	</combo_box>
 	<text name="PostProcessText">
 		低
 	</text>
